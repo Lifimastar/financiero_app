@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../../core/theme/app_theme.dart';
 import '../../presentation/providers/auth_providers.dart';
+import '../screens/sign_up_screen.dart';
 
 // StateProvider para manejo de estado de carga
 final loginLoadingProvider = StateProvider<bool>((ref) => false);
@@ -179,7 +180,13 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
 
                 // TEXTO PARA REGISTRARSE
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => const SignUpScreen(),
+                      ),
+                    );
+                  },
                   child: Text.rich(
                     TextSpan(
                       text: "Don't have an account?",
