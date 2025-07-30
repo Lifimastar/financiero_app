@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "892891676324",
+    "project_id": "financiero-app-476d9",
+    "storage_bucket": "financiero-app-476d9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892891676324:android:72ef4436a414347b337031",
+        "android_client_info": {
+          "package_name": "com.lifimastar.financiero_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWGP7h4cpoUbqyFbJwvS9i5CtNxy5U8aE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
